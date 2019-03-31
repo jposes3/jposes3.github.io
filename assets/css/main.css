@@ -2501,7 +2501,7 @@ input, select, textarea {
 		.icon.major {
 			width: 2.5em;
 			height: 2.5em;
-			display: block;
+			display: inline-block;
 			background: #ffffff;
 			border-radius: 100%;
 			color: #312450;
@@ -2580,6 +2580,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
 
 		.image.main {
@@ -3889,4 +3890,19 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+	/* The progress container (grey background) 
+		.progress-container {
+			position: fixed;
+			width: 8px;
+			height: 100%;
+			background: #ccc;
+		}
+  
+  	/* The progress bar (scroll indicator) 
+		.progress-bar {
+			position: fixed;
+			height: 8px;
+			background: #4caf50;
+			width: 0%;
 		}
